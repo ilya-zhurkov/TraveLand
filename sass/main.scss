@@ -1,0 +1,25 @@
+// Base
+@import "./base/vars";
+@import "./base/reset";
+@import "./base/base";
+
+// Section
+@import "./blocks/blog";
+@import "./blocks/offer";
+@import "./blocks/location";
+@import "./blocks/footer";
+@import "./blocks/header";
+
+// Blocks
+@import "./blocks/logo";
+@import "./blocks/button";
+@import "./blocks/description";
+@import "./blocks/title";
+@import "./blocks/cards";
+@import "./blocks/slider";
+
+// owlCarousel Theme
+@import "./owlcarousel-theme/vars";
+@import "./owlcarousel-theme/theme";
+
+

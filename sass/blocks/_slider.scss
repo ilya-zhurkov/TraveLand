@@ -1,0 +1,84 @@
+.slider-item {
+    width: 262px;
+    margin-right: 35px;
+    margin-left: 35px;
+}
+.slider-item__img {
+    margin-bottom: 20px;
+}
+.slider-item__info-title {
+    font-family: 'Gelasio', serif;
+    font-weight: 500;
+    font-size: 24px;
+
+    margin-bottom: 8px;
+}
+.slider-item__info-point {
+    font-weight: 400;
+    font-size: 16px;
+    opacity: 0.6;
+
+    margin-right: 50px;
+    padding-left: 20px;
+
+    position: relative;
+
+    &::before{
+        content: '';
+        position: absolute;
+        background: url('../img/icon/point.svg');
+        width: 12px;
+        height: 16px;
+        top: 0;
+        left: 0;
+    }
+}
+.slider-item__info-grade {
+    font-weight: 400;
+    font-size: 16px;
+
+    margin-bottom: 8px;
+    padding-left: 34px;
+
+    position: relative;
+
+    &::before{
+        content: '';
+        position: absolute;
+        background: url('../img/icon/star.svg');
+        width: 24px;
+        height: 20px;
+        top: -1px;
+        left: 0;
+    }
+}
+.slider-item__info-term {
+    font-weight: 400;
+    font-size: 16px;
+    opacity: 0.6;
+
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+.slider-item__info-price {
+    font-weight: 400;
+    font-size: 16px;
+
+    margin-bottom: 8px;
+
+    span{
+        opacity: 0.6;
+    }
+}
+.slider__arrow {
+    position: absolute;
+    z-index: 2;
+}
+.slider__arrow--left {
+    bottom: 7px;
+    left: 41%;
+}
+.slider__arrow--right {
+    bottom: 7px;
+    right: 41%;
+}
